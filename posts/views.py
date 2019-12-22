@@ -22,7 +22,7 @@ def post_detail(request, pk):
     return render(request, "postdetail.html", {'post': post})
 
 
-def credit_or_edit_post(request, pk=None):
+def create_or_edit_post(request, pk=None):
     """ Create a view that allows us to create or edit a post,
     depending on if the post id is null or not """
 
